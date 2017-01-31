@@ -1,0 +1,25 @@
+{
+  "name": "request-header-parser-microservice",
+  "version": "1.0.0",
+  "description": ": Can get the IP address, language and operating system for the browser.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marckimbrey/request-header-parser-microservice.git"
+  },
+  "author": "marc kimbrey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marckimbrey/request-header-parser-microservice/issues"
+  },
+  "homepage": "https://github.com/marckimbrey/request-header-parser-microservice#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "ua-parser": "^0.3.5",
+    "ua-parser-js": "^0.7.12"
+  }
+}
